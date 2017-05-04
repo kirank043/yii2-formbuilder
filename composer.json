@@ -1,0 +1,43 @@
+{
+    // package name
+    "name": "squareloops/yii2-formbuilder",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "The Form Builder extension for the Yii2 framework",
+    "keywords": ["yii2", "form Builder", "form", "helper","Form generator"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "authors": [
+        {
+            "name": "Square Loops",
+            "email": "info@squareloops.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-bootstrap": "~2.0"
+        
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "squareloops\\formbuilder\\": ""
+        }
+    },
+     "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
